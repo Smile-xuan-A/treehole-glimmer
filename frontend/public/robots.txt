@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# 允许所有搜索引擎爬取站点
+# 但不要爬取 API 路径和上传目录
+Disallow: /api/
+Disallow: /uploads/
+
+# 爬虫延迟
+Crawl-delay: 1
+
+# 站点地图位置
+Sitemap: https://whisper-hole.vercel.app/sitemap.xml

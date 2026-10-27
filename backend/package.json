@@ -1,0 +1,31 @@
+{
+  "name": "whisper-hole-backend",
+  "version": "1.0.0",
+  "description": "微光树洞 - 匿名情绪互助社区后端",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "whisper-hole",
+    "anonymous",
+    "emotion",
+    "community"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dompurify": "^3.4.17",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "express-validator": "^7.3.2",
+    "helmet": "^8.3.0",
+    "jsdom": "^30.1.3",
+    "multer": "^2.5.0",
+    "mysql2": "^3.24.6",
+    "sharp": "^0.35.5"
+  }
+}

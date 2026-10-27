@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf8fc"/>
+      <stop offset="50%" stop-color="#f0ebf7"/>
+      <stop offset="100%" stop-color="#e8f4fc"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b39ddb"/>
+      <stop offset="100%" stop-color="#7e57c2"/>
+    </linearGradient>
+    <linearGradient id="tree" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5d6a7"/>
+      <stop offset="100%" stop-color="#66bb6a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 装饰圆 -->
+  <circle cx="1100" cy="100" r="80" fill="#d1c4e9" opacity="0.4"/>
+  <circle cx="100" cy="550" r="120" fill="#b39ddb" opacity="0.3"/>
+  <circle cx="1050" cy="520" r="60" fill="#ffcc80" opacity="0.4"/>
+
+  <!-- 小图标装饰 -->
+  <text x="150" y="200" font-size="48">🌧️</text>
+  <text x="1000" y="250" font-size="48">☀️</text>
+  <text x="200" y="480" font-size="36">💗</text>
+  <text x="950" y="450" font-size="36">🌸</text>
+
+  <!-- 左侧主标题 -->
+  <text x="100" y="280" font-family="Microsoft YaHei, Arial, sans-serif" font-size="72" font-weight="bold" fill="url(#titleGrad)">
+    微光树洞
+  </text>
+  <text x="100" y="360" font-family="Microsoft YaHei, Arial, sans-serif" font-size="36" fill="#5E35B1">
+    匿名情绪互助社区
+  </text>
+  <text x="100" y="430" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#78909c">
+    温柔倾诉 · 互相安慰 · 治愈每一个孤独的夜晚
+  </text>
+
+  <!-- 右侧树图标 -->
+  <g transform="translate(820, 200) scale(0.8)">
+    <rect x="144" y="380" width="32" height="100" rx="8" fill="#6d4c41"/>
+    <ellipse cx="160" cy="300" rx="130" ry="110" fill="url(#tree)"/>
+    <ellipse cx="100" cy="280" rx="60" ry="55" fill="#a5d6a7" opacity="0.85"/>
+    <ellipse cx="220" cy="280" rx="60" ry="55" fill="#a5d6a7" opacity="0.85"/>
+    <ellipse cx="160" cy="310" rx="35" ry="42" fill="#3e2723"/>
+    <circle cx="150" cy="305" r="6" fill="#ffd54f" opacity="0.9"/>
+    <circle cx="168" cy="315" r="4" fill="#ffcc80" opacity="0.8"/>
+  </g>
+
+  <!-- 底部标签 -->
+  <g transform="translate(100, 530)">
+    <rect x="0" y="0" width="160" height="40" rx="20" fill="#d1c4e9" opacity="0.7"/>
+    <text x="80" y="26" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#5E35B1">🌧️ 烦恼求助</text>
+    <rect x="180" y="0" width="160" height="40" rx="20" fill="#fff3e0" opacity="0.7"/>
+    <text x="260" y="26" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#e65100">☀️ 随手拍分享</text>
+  </g>
+
+</svg>

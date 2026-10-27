@@ -1,0 +1,17 @@
+# 🌳 微光树洞
+
+匿名情绪互助社区网站。温柔治愈的低压力倾诉空间。
+
+## 快速开始
+
+```bash
+# 前端
+cd frontend && npm install && npm run dev
+
+# 后端
+cd backend && npm install && npm run dev
+```
+
+## 部署
+
+详见 README.md

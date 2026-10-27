@@ -1,0 +1,10 @@
+/* Netlify SPA 路由重写（备选方案） */
+/* 所有请求重写到 index.html */
+/* :splat 匹配路径后半部分 */
+
+/* SPA fallback */
+/create      /index.html 200
+/post/*      /index.html 200
+
+/* 404 fallback */
+/* 保留真实 404 */
